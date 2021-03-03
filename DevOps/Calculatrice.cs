@@ -28,6 +28,14 @@ namespace DevOps
             int r = a / b;
             return r;
         }
+
+        public int Multiplication(int a, int b)
+        {
+            int r = a * b;
+            return r;
+        }
+
+
     }
 
 

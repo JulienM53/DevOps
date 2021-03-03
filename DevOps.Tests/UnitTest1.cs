@@ -38,8 +38,19 @@ namespace DevOps.Tests
             int a = 4;
             int b = 2;
             Calculatrice calc = new Calculatrice();
-            int result = calc.Soustraction(a, b);
+            int result = calc.Division(a, b);
             Assert.AreEqual(2, result);
+
+        }
+
+        [Test]
+        public void TestMultiplication()
+        {
+            int a = 4;
+            int b = 2;
+            Calculatrice calc = new Calculatrice();
+            int result = calc.Multiplication(a, b);
+            Assert.AreEqual(8, result);
 
         }
     }
