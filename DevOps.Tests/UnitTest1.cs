@@ -28,7 +28,18 @@ namespace DevOps.Tests
             int b = 2;
             Calculatrice calc = new Calculatrice();
             int result = calc.Soustraction(a, b);
-            Assert.AreEqual(6, result);
+            Assert.AreEqual(2, result);
+
+        }
+
+        [Test]
+        public void TestDivision()
+        {
+            int a = 4;
+            int b = 2;
+            Calculatrice calc = new Calculatrice();
+            int result = calc.Soustraction(a, b);
+            Assert.AreEqual(2, result);
 
         }
     }
