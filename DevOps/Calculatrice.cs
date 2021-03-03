@@ -22,6 +22,12 @@ namespace DevOps
             int r = a - b;
             return r;
         }
+
+        public int Division(int a, int b)
+        {
+            int r = a - b;
+            return r;
+        }
     }
 
 

@@ -18,6 +18,18 @@ namespace DevOps.Tests
             Calculatrice calc = new Calculatrice();
             int result = calc.Addition(a, b);
             Assert.AreEqual(6, result);
+
+        }
+        
+        [Test]
+        public void TestSoustraction()
+        {
+            int a = 4;
+            int b = 2;
+            Calculatrice calc = new Calculatrice();
+            int result = calc.Addition(a, b);
+            Assert.AreEqual(6, result);
+
         }
     }
 }
