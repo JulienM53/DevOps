@@ -7,7 +7,7 @@ namespace DevOps
         static void Main(string[] args)
         {
             Console.WriteLine("Bonjour le monde");
-            Console.ReadKey();
+            
         }
     }
 }
