@@ -27,7 +27,7 @@ namespace DevOps.Tests
             int a = 4;
             int b = 2;
             Calculatrice calc = new Calculatrice();
-            int result = calc.Addition(a, b);
+            int result = calc.Soustraction(a, b);
             Assert.AreEqual(6, result);
 
         }
